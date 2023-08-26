@@ -1,0 +1,134 @@
+.whole-box{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+}
+.main-box{
+   width: 350px;
+    height: 400px;
+    border: 1px solid #ccd0d5;
+    display: inline-block;
+}
+.logo-box{
+    height: 100px;
+    width: 100%;
+}
+.logo-box>img{
+width: 175px;
+height: 70px;
+display: flex;
+position: relative;
+left: 25%;
+top: 20%;
+}
+.info-box{
+    max-width: 348px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: space-evenly
+}
+.fl{
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+
+.forgot{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:20px ;
+}
+.login{
+    align-items:  center;
+    text-align: center;
+    background-color:#0095f6;
+    width: 268px;
+}
+.login>p{
+    position: relative;
+    top: 25%;
+    color: white;
+    font-size: 1.rem;
+}
+.main-box2{
+  position: absolute;
+  border: 1px solid  #ccd0d5;
+  top: 420px; 
+  width: 350px ;
+  height:70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+span{
+    color: #0095f6;
+}
+.main-box3{
+    position: absolute;
+    top: 500px;
+    width: 350px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    width:134px ;
+    height: 40px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35px;
+    
+}
+.main-box3>div>p{
+    text-align: center;
+    justify-content: center;
+}
+.shift{
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  top: 5px;
+}
+/* phone-image-section */
+.graphic{
+ width: 400px;
+ height: 600px;
+ position: absolute;
+ left: 20%;
+ top: 35px;
+}
+.phone1{
+    width: 300px;
+    height: 600px;   
+
+}
+.phone2{
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    left: 25%;
+    top: 30px;
+   display: flex;
+
+}
+.ig{
+    width: 300px;
+    height: 600px ;
+    background-size: cover;
+}
+
+@media (max-width: 850px) {
+    .graphic{
+        display: none;
+    }
+    .whole-box{
+        position: absolute;
+        top: 35px;
+        left: 25%;
+    }
+}
